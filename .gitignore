@@ -1,0 +1,29 @@
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+env/
+venv/
+*.env
+
+# Jupyter
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data - omit large/dataset files
+DATASET/*.csv
+DATASET/*.xlsx
+DATASET/*.json
+
+# Logs
+*.log
+
+# VS Code
+.history/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
